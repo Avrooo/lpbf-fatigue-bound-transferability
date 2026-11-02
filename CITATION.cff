@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite the article (when published) and this software release."
+title: "lpbf-fatigue-bound-transferability: code for the external transferability assessment of lower-tail S–N bounds for laser powder bed fusion alloys"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: "Avro"
+    given-names: "Sakib Shahrear"
+    affiliation: "The University of Texas at El Paso"
+license: MIT
+repository-code: "https://github.com/USERNAME/lpbf-fatigue-bound-transferability"
+# doi: add the Zenodo DOI after the first release
+preferred-citation:
+  type: unpublished
+  title: "Cross-study transferability of lower-tail S–N bounds for laser powder bed fusion alloys: coverage and conservatism"
+  authors:
+    - family-names: "Avro"
+      given-names: "Sakib Shahrear"
+  notes: "Manuscript prepared for submission to Archives of Civil and Mechanical Engineering. Replace this entry with the published reference when available."
+  year: 2026

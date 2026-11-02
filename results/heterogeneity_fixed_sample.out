@@ -1,0 +1,29 @@
+set=primary: papers=123 curves=424 specimens=3924 failures=3464 runouts=460
+primary set: 123 papers, 3924 specimens. Rows with all five attributes recorded: 2596 specimens, 86 papers.
+groups with <6 such papers (dropped, rule not relaxed): {'IN718|-1.0': 5}
+FIXED SAMPLE: 82 publications, 278 curves, 2476 specimens (2148 failures, 328 runouts) in 7 alloy-R groups
+                            level                   specification  mat    R  n_publications  n_specimens  n_covariate_columns  sigma_within  tau_between    ICC  tau_variance_removed_pct_vs_stress_only converged
+0  all groups (specimen-weighted)                     Stress only  all  all              82         2476                0.000         0.622        0.498  0.371                                    0.000       7/7
+1  all groups (specimen-weighted)  + Surface, HIP, heat treatment  all  all              82         2476                2.429         0.605        0.453  0.340                                   17.348       7/7
+2  all groups (specimen-weighted)               + Build direction  all  all              82         2476                4.429         0.586        0.511  0.407                                   -5.355       7/7
+3  all groups (specimen-weighted)  + Specimen shape, load control  all  all              82         2476                5.571         0.583        0.561  0.463                                  -26.808       7/7
+4  all groups (specimen-weighted)                + Frequency band  all  all              82         2476                6.714         0.582        0.457  0.388                                   15.855       7/7
+5  all groups (specimen-weighted)           + AM machine identity  all  all              82         2476                9.571         0.582        0.418  0.333                                   29.327       6/7
+    level          specification       mat    R  n_publications  n_specimens  n_covariate_columns  sigma_within  tau_between  converged  optimizer_success  tau_at_zero_boundary  ICC
+23  group  + AM machine identity  AlSi10Mg  0.1               9          220                    7        0.4784       0.0008      False               True                  True  0.0
+    level          specification        mat    R  n_publications  n_specimens  n_covariate_columns  sigma_within  tau_between  converged  optimizer_success  tau_at_zero_boundary    ICC
+5   group  + AM machine identity       316L -1.0              18          585                   13         0.523        0.162       True               True                 False  0.088
+11  group  + AM machine identity       316L  0.1              11          341                    8         0.441        0.462       True               True                 False  0.524
+17  group  + AM machine identity   AlSi10Mg -1.0               8          155                    4         0.740        0.145       True               True                 False  0.037
+23  group  + AM machine identity   AlSi10Mg  0.1               9          220                    7         0.478        0.001      False               True                  True  0.000
+29  group  + AM machine identity      IN718  0.1               8          286                   10         0.542        0.591       True               True                 False  0.543
+35  group  + AM machine identity  Ti-6Al-4V -1.0              11          252                   13         0.561        0.641       True               True                 False  0.566
+41  group  + AM machine identity  Ti-6Al-4V  0.1              20          637                   12         0.736        0.675       True               True                 False  0.457
+machine dummies vs papers per group (all-covariate model):
+  316L R=-1.0: papers=18 machines=7  papers sharing a machine with another paper: 4 of 7 machines
+  316L R=0.1: papers=11 machines=6  papers sharing a machine with another paper: 1 of 6 machines
+  AlSi10Mg R=-1.0: papers=8 machines=8  papers sharing a machine with another paper: 0 of 8 machines
+  AlSi10Mg R=0.1: papers=9 machines=5  papers sharing a machine with another paper: 3 of 5 machines
+  IN718 R=0.1: papers=8 machines=4  papers sharing a machine with another paper: 2 of 4 machines
+  Ti-6Al-4V R=-1.0: papers=11 machines=7  papers sharing a machine with another paper: 3 of 7 machines
+  Ti-6Al-4V R=0.1: papers=20 machines=12  papers sharing a machine with another paper: 3 of 12 machines

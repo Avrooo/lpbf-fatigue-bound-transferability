@@ -1,0 +1,43 @@
+level,specification,mat,R,n_publications,n_specimens,n_covariate_columns,sigma_within,tau_between,ICC,tau_variance_removed_pct_vs_stress_only,converged,optimizer_success,tau_at_zero_boundary
+all groups (specimen-weighted),Stress only,all,all,73,2256,0.0000,0.6276,0.5176,0.3859,0.0000,6/6,,
+all groups (specimen-weighted),"+ Surface, HIP, heat treatment",all,all,73,2256,2.6667,0.6134,0.4527,0.3309,23.5235,6/6,,
+all groups (specimen-weighted),+ Build direction,all,all,73,2256,4.8333,0.5976,0.5120,0.3938,2.1633,6/6,,
+all groups (specimen-weighted),"+ Specimen shape, load control",all,all,73,2256,6.0000,0.5948,0.5670,0.4561,-19.9815,6/6,,
+all groups (specimen-weighted),+ Frequency band,all,all,73,2256,7.1667,0.5933,0.4528,0.3740,23.4655,6/6,,
+all groups (specimen-weighted),+ AM machine identity,all,all,73,2256,10.0000,0.5924,0.4592,0.3656,21.3076,6/6,,
+group,Stress only,316L,-1.0,18,585,0.0000,0.5314,0.4308,0.3965,,True,True,False
+group,"+ Surface, HIP, heat treatment",316L,-1.0,18,585,3.0000,0.5237,0.3370,0.2927,,True,True,False
+group,+ Build direction,316L,-1.0,18,585,6.0000,0.5219,0.2815,0.2254,,True,True,False
+group,"+ Specimen shape, load control",316L,-1.0,18,585,7.0000,0.5186,0.3728,0.3407,,True,True,False
+group,+ Frequency band,316L,-1.0,18,585,8.0000,0.5197,0.3367,0.2956,,True,True,False
+group,+ AM machine identity,316L,-1.0,18,585,13.0000,0.5232,0.1624,0.0879,,True,True,False
+group,Stress only,316L,0.1,11,341,0.0000,0.4959,0.1358,0.0698,,True,True,False
+group,"+ Surface, HIP, heat treatment",316L,0.1,11,341,3.0000,0.4837,0.0669,0.0188,,True,True,False
+group,+ Build direction,316L,0.1,11,341,4.0000,0.4450,0.2888,0.2964,,True,True,False
+group,"+ Specimen shape, load control",316L,0.1,11,341,5.0000,0.4420,0.3838,0.4298,,True,True,False
+group,+ Frequency band,316L,0.1,11,341,6.0000,0.4416,0.4132,0.4668,,True,True,False
+group,+ AM machine identity,316L,0.1,11,341,8.0000,0.4409,0.4624,0.5238,,True,True,False
+group,Stress only,AlSi10Mg,-1.0,8,155,0.0000,0.7514,0.3652,0.1911,,True,True,False
+group,"+ Surface, HIP, heat treatment",AlSi10Mg,-1.0,8,155,1.0000,0.7407,0.3409,0.1748,,True,True,False
+group,+ Build direction,AlSi10Mg,-1.0,8,155,3.0000,0.7384,0.3326,0.1687,,True,True,False
+group,"+ Specimen shape, load control",AlSi10Mg,-1.0,8,155,3.0000,0.7384,0.3326,0.1687,,True,True,False
+group,+ Frequency band,AlSi10Mg,-1.0,8,155,4.0000,0.7397,0.1453,0.0371,,True,True,False
+group,+ AM machine identity,AlSi10Mg,-1.0,8,155,4.0000,0.7397,0.1453,0.0371,,True,True,False
+group,Stress only,IN718,0.1,8,286,0.0000,0.5722,0.6602,0.5711,,True,True,False
+group,"+ Surface, HIP, heat treatment",IN718,0.1,8,286,3.0000,0.5546,0.4786,0.4269,,True,True,False
+group,+ Build direction,IN718,0.1,8,286,6.0000,0.5431,0.5202,0.4785,,True,True,False
+group,"+ Specimen shape, load control",IN718,0.1,8,286,7.0000,0.5452,0.5802,0.5311,,True,True,False
+group,+ Frequency band,IN718,0.1,8,286,8.0000,0.5429,0.5267,0.4849,,True,True,False
+group,+ AM machine identity,IN718,0.1,8,286,10.0000,0.5417,0.5908,0.5432,,True,True,False
+group,Stress only,Ti-6Al-4V,-1.0,11,252,0.0000,0.6696,0.6164,0.4587,,True,True,False
+group,"+ Surface, HIP, heat treatment",Ti-6Al-4V,-1.0,11,252,3.0000,0.6598,0.5118,0.3756,,True,True,False
+group,+ Build direction,Ti-6Al-4V,-1.0,11,252,6.0000,0.5930,0.8218,0.6576,,True,True,False
+group,"+ Specimen shape, load control",Ti-6Al-4V,-1.0,11,252,8.0000,0.5795,0.9255,0.7183,,True,True,False
+group,+ Frequency band,Ti-6Al-4V,-1.0,11,252,10.0000,0.5695,0.5831,0.5118,,True,True,False
+group,+ AM machine identity,Ti-6Al-4V,-1.0,11,252,13.0000,0.5615,0.6406,0.5655,,True,True,False
+group,Stress only,Ti-6Al-4V,0.1,20,637,0.0000,0.7646,0.7357,0.4808,,True,True,False
+group,"+ Surface, HIP, heat treatment",Ti-6Al-4V,0.1,20,637,3.0000,0.7421,0.7576,0.5103,,True,True,False
+group,+ Build direction,Ti-6Al-4V,0.1,20,637,4.0000,0.7408,0.7605,0.5132,,True,True,False
+group,"+ Specimen shape, load control",Ti-6Al-4V,0.1,20,637,6.0000,0.7399,0.7526,0.5085,,True,True,False
+group,+ Frequency band,Ti-6Al-4V,0.1,20,637,7.0000,0.7384,0.5708,0.3741,,True,True,False
+group,+ AM machine identity,Ti-6Al-4V,0.1,20,637,12.0000,0.7362,0.6755,0.4571,,True,True,False

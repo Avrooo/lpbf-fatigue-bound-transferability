@@ -1,0 +1,21 @@
+setting,method,indep,indep_se,same
+"Ti-6Al-4V, R=-1
+K=20",single_pred5,99.7,0.3,94.7
+"Ti-6Al-4V, R=-1
+K=20",pooled_failures_only_pred5,99.0,0.6,98.3
+"Ti-6Al-4V, R=-1
+K=60",single_pred5,100.0,0.0,93.7
+"Ti-6Al-4V, R=-1
+K=60",pooled_failures_only_pred5,99.7,0.3,99.3
+"Ti-6Al-4V, R=-1
+K=120",single_pred5,100.0,0.0,92.0
+"Ti-6Al-4V, R=-1
+K=120",pooled_failures_only_pred5,99.5,0.5,99.5
+"Ti-6Al-4V, R=0.1
+K=30",single_pred5,99.7,0.3,93.7
+"Ti-6Al-4V, R=0.1
+K=30",pooled_failures_only_pred5,95.7,1.2,95.3
+"316L, R=-1
+K=22",single_pred5,99.2,0.4,93.2
+"316L, R=-1
+K=22",pooled_failures_only_pred5,94.8,1.0,93.8

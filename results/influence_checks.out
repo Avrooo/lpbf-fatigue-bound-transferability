@@ -1,0 +1,19 @@
+set=primary: papers=123 curves=424 specimens=3924 failures=3464 runouts=460
+headline (single, pooled, hier): [27.21, 6.5, 4.57]
+source jackknife (99 papers): single 26.64-27.59, pooled 6.41-6.61, hier 4.51-4.64, gap 20.18-21.05
+                          paper  single  pooled   gap
+            10.3390/jmmp6040085   26.68    6.49 20.18
+             10.3390/ma14040732   26.69    6.49 20.20
+10.1016/j.ijfatigue.2019.03.022   26.64    6.41 20.23
+target jackknife (123 papers): single 26.65-27.43, pooled 5.74-6.55, hier 3.80-4.61, gap 20.23-21.11
+                          paper  single  pooled   gap
+            10.3390/met11071022   26.78    6.55 20.23
+              10.1111/ffe.12880   27.06    5.95 21.11
+10.1016/j.ijfatigue.2019.05.004   26.91    6.55 20.36
+source_failures  source_curves  source_papers  single  pooled  hier   gap
+            6-7             83             44   21.98    6.09  4.54 15.89
+           8-11            150             72   30.35    6.80  4.69 23.55
+          12-19             52             34   24.74    6.18  4.25 18.56
+           >=20             10              6   10.89    4.77  3.10  6.12
+         R=-1.0            139             47   25.49    7.16  4.83 18.33
+          R=0.1            156             54   28.46    6.47  4.76 21.99

@@ -1,0 +1,17 @@
+bootstrap,metric,ci_low,ci_high,width
+independent,single_5%,21.567,32.907,11.340
+independent,single_95/95,14.281,24.043,9.762
+independent,pooled_5%,3.758,9.719,5.961
+independent,hier_5%,2.064,7.753,5.688
+same_paper_set,single_5%,23.748,30.857,7.109
+same_paper_set,single_95/95,15.623,22.715,7.092
+same_paper_set,pooled_5%,3.753,9.668,5.916
+same_paper_set,hier_5%,2.217,7.647,5.430
+source_only,single_5%,23.230,31.456,8.226
+source_only,single_95/95,15.636,22.854,7.218
+source_only,pooled_5%,5.958,7.017,1.059
+source_only,hier_5%,4.135,4.935,0.800
+target_only,single_5%,23.583,30.886,7.303
+target_only,single_95/95,15.942,22.248,6.306
+target_only,pooled_5%,3.713,9.638,5.925
+target_only,hier_5%,2.143,7.610,5.467

@@ -1,0 +1,4 @@
+quantity,estimate,ci_low,ci_high
+breach % of policy tau-frontier at the pooled-5% bound height (4.204),7.883,5.020,11.405
+breach % of pooled-only at its own height,6.498,3.811,9.914
+breach % of single-study fixed-margin (p-grid) at the pooled-5% bound height,15.567,,

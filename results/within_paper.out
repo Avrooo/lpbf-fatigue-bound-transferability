@@ -1,0 +1,33 @@
+set=primary: papers=123 curves=424 specimens=3924 failures=3464 runouts=460
+source curves eligible for the cross-paper analysis: 296; excluded for <8 failures: 83; excluded for too few valid splits: 0; within-paper eligible curves: 213 from 89 papers
+                                                         0                1
+subset                                          all alloys       all alloys
+n_splits                                               100              100
+holdout_fraction                                       0.3              0.3
+bound                                        5% prediction  95/95 tolerance
+n_papers                                                89               89
+n_curves                                               213              213
+n_test_failures_per_split                            562.5            562.5
+n_test_failures_unique                                1968             1968
+within_breach_pct                                     4.12             0.66
+within_CI_low                                          3.4             0.45
+within_CI_high                                        4.95             0.92
+cross_breach_pct                                     26.87            19.21
+cross_CI_low                                         22.15            15.26
+cross_CI_high                                        31.89            23.62
+gap_pp                                               22.75            18.56
+gap_CI_low                                           18.15            14.55
+gap_CI_high                                          27.72            22.94
+within_breach_pct_failures_only_denominator           4.51             0.75
+cross_breach_pct_target_weighting                    27.78            19.83
+cross_target_weighting_CI_low                        21.47            14.64
+cross_target_weighting_CI_high                       34.53            25.67
+      subset            bound  n_papers  n_curves  n_test_failures_per_split  n_test_failures_unique  within_breach_pct  within_CI_low  within_CI_high  cross_breach_pct  cross_CI_low  cross_CI_high  gap_pp  gap_CI_low  gap_CI_high  within_breach_pct_failures_only_denominator
+0  Ti-6Al-4V    5% prediction        36        91                      229.7                     797               4.74           3.81            5.68             30.63         23.87          38.20   25.89       18.99        33.53                                         5.36
+1  Ti-6Al-4V  95/95 tolerance        36        91                      229.7                     797               0.71           0.35            1.24             21.89         15.55          29.23   21.19       14.95        28.46                                         0.79
+2   AlSi10Mg    5% prediction        13        26                       79.8                     285               3.01           1.75            4.34             26.70         13.58          41.49   23.69       10.29        38.82                                         3.18
+3   AlSi10Mg  95/95 tolerance        13        26                       79.8                     285               0.58           0.08            1.18             17.23          7.73          28.41   16.65        7.27        27.66                                         0.63
+4      IN718    5% prediction        13        36                      103.0                     361               3.27           2.17            4.36             23.62         10.90          37.70   20.34        8.38        33.61                                         3.41
+5      IN718  95/95 tolerance        13        36                      103.0                     361               0.70           0.24            1.24             17.87          7.17          30.68   17.18        6.72        29.72                                         0.70
+6       316L    5% prediction        28        60                      150.0                     525               4.15           2.41            6.30             23.14         16.01          31.16   18.99       11.81        26.48                                         4.42
+7       316L  95/95 tolerance        28        60                      150.0                     525               0.59           0.28            0.93             16.92         10.89          23.91   16.33       10.22        23.40                                         0.75

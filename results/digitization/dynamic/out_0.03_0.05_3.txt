@@ -1,0 +1,9 @@
+set=primary: papers=123 curves=424 specimens=3924 failures=3464 runouts=460
+pair-curve records: 4318
+single_pred5                 25.35%  independent-roles [20.27, 30.65]  same-paper-set [22.01, 28.76]   pairs=1640 sources=102 targets=123
+single_tol9595               16.26%  independent-roles [12.24, 21.03]  same-paper-set [13.10, 19.55]   pairs=1640 sources=102 targets=123
+pooled_censored_pred5         6.64%  independent-roles [ 3.90,  9.69]  same-paper-set [ 3.94,  9.69]   pairs=1640 sources=102 targets=123
+pooled_failures_only_pred5    7.73%  independent-roles [ 4.64, 11.38]  same-paper-set [ 4.84, 11.04]   pairs=1640 sources=102 targets=123
+paired difference single_pred5 minus pooled_censored: +18.71 pts [+14.08, +23.75]
+paired difference single_tol9595 minus pooled_censored: +9.62 pts [+6.00, +13.43]
+paired difference pooled_failures_only_pred5 minus pooled_censored: +1.09 pts [+0.12, +2.28]

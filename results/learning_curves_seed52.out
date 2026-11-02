@@ -1,0 +1,69 @@
+set=primary: papers=123 curves=424 specimens=3924 failures=3464 runouts=460
+Ti-6Al-4V -1 done
+Ti-6Al-4V 0.1 done
+AlSi10Mg -1 done
+AlSi10Mg 0.1 done
+IN718 -1 done
+IN718 0.1 done
+316L -1 done
+316L 0.1 done
+
+FIXED TARGETS A (at least 20 other papers): 52 (alloy,R,paper) units, 52 target papers, identical for every K
+  K=  1:  32.4% [26.7,  38.2]
+  K=  3:  17.4% [12.9,  22.2]
+  K=  5:  13.2% [ 9.1,  18.1]
+  K= 10:   7.9% [ 4.7,  11.8]
+  K= 20:   5.1% [ 2.4,   8.7]
+  K=all:   4.1% [ 1.7,   7.5]
+    K= 1 minus all-others: +28.3 pts [+22.9, +33.9]
+    K= 3 minus all-others: +13.3 pts [ +9.6, +17.2]
+    K= 5 minus all-others:  +9.0 pts [ +6.1, +12.6]
+    K=10 minus all-others:  +3.8 pts [ +2.3,  +5.4]
+    K=20 minus all-others:  +0.9 pts [ +0.2,  +2.1]
+
+FIXED TARGETS B (at least 10 other papers): 120 (alloy,R,paper) units, 117 target papers, identical for every K
+  K=  1:  28.7% [24.8,  32.6]
+  K=  3:  15.1% [12.2,  18.3]
+  K=  5:  11.4% [ 8.6,  14.5]
+  K= 10:   6.8% [ 4.6,   9.5]
+  K=all:   4.7% [ 2.8,   7.1]
+    K= 1 minus all-others: +24.0 pts [+20.6, +27.3]
+    K= 3 minus all-others: +10.4 pts [ +8.2, +12.8]
+    K= 5 minus all-others:  +6.6 pts [ +5.0,  +8.6]
+    K=10 minus all-others:  +2.1 pts [ +1.3,  +3.0]
+
+FIXED TARGETS B, Ti-6Al-4V: 49 (alloy,R,paper) units, 48 target papers, identical for every K
+  K=  1:  29.9% [24.0,  35.8]
+  K=  5:  12.8% [ 8.1,  18.2]
+  K= 10:   7.5% [ 3.7,  12.2]
+  K=all:   3.9% [ 0.9,   7.9]
+    K= 1 minus all-others: +26.0 pts [+20.8, +31.2]
+    K= 5 minus all-others:  +9.0 pts [ +6.1, +12.4]
+    K=10 minus all-others:  +3.6 pts [ +2.1,  +5.4]
+
+FIXED TARGETS B, AlSi10Mg: 25 (alloy,R,paper) units, 25 target papers, identical for every K
+  K=  1:  21.1% [15.1,  27.0]
+  K=  5:   5.2% [ 2.1,   8.8]
+  K= 10:   3.4% [ 0.7,   6.7]
+  K=all:   2.8% [ 0.3,   6.1]
+    K= 1 minus all-others: +18.2 pts [+13.4, +23.4]
+    K= 5 minus all-others:  +2.4 pts [ +1.2,  +4.1]
+    K=10 minus all-others:  +0.5 pts [ +0.2,  +1.0]
+
+FIXED TARGETS B, IN718: 11 (alloy,R,paper) units, 11 target papers, identical for every K
+  K=  1:  32.6% [16.4,  50.5]
+  K=  5:  14.3% [ 5.1,  27.3]
+  K= 10:   5.2% [ 0.8,  12.3]
+  K=all:   5.2% [ 0.8,  12.3]
+    K= 1 minus all-others: +27.5 pts [+14.4, +41.0]
+    K= 5 minus all-others:  +9.1 pts [ +3.8, +15.5]
+    K=10 minus all-others:  -0.0 pts [ -0.0,  +0.0]
+
+FIXED TARGETS B, 316L: 35 (alloy,R,paper) units, 34 target papers, identical for every K
+  K=  1:  31.8% [24.2,  40.1]
+  K=  5:  13.0% [ 7.8,  19.3]
+  K= 10:   8.8% [ 4.6,  14.3]
+  K=all:   7.1% [ 3.2,  12.6]
+    K= 1 minus all-others: +24.7 pts [+18.0, +32.3]
+    K= 5 minus all-others:  +6.0 pts [ +2.9,  +9.8]
+    K=10 minus all-others:  +1.7 pts [ +0.5,  +3.1]

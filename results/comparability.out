@@ -1,0 +1,16 @@
+set=primary: papers=123 curves=424 specimens=3924 failures=3464 runouts=460
+attribute availability over curves in the primary set (non-missing %):
+  dir    93%
+  freq   83%
+  load   100%
+  shape  95%
+  amm    90%
+
+SINGLE-STUDY 5% prediction bound breach rate under progressively strict source-target matching (primary set; equal-weight per paper pair)
+matching level                                           breach         95% CI | curve pairs  paper pairs  src  tgt  specimens | pooled bound on same specimens
+L0 none (same alloy, R, L-PBF, uniaxial)                  27.2% [ 22.1, 33.0] |  11136        1562    99  123     57483 |   6.5% [ 3.7,  9.5]
+L1 + same surface class, HIP, high-T heat treatment       27.7% [ 21.6, 33.7] |   3521         878    98  120     18852 |   6.6% [ 3.2,  9.9]
+L2 + same build direction                                 27.8% [ 20.4, 35.7] |   1668         558    88  106      9456 |   6.9% [ 3.1, 10.9]
+L3 + same specimen shape and load control                 26.7% [ 17.9, 33.6] |   1075         376    79   93      6355 |   7.1% [ 2.3, 10.9]
+L4 + same frequency band                                  23.2% [ 13.6, 34.9] |    491         167    56   64      3012 |   6.1% [ 1.2, 11.7]
+L5 + same AM machine                                      17.2% [  5.2, 28.7] |    220          53    27   28      1433 |   1.1% [ 0.2,  3.1]

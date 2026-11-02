@@ -1,0 +1,18 @@
+# environments, caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# source database: not redistributed (see data/README.md); keep only the checksums and notes
+data/*
+!data/README.md
+!data/SHA256SUMS
+# files derived from the database that run_all.sh rebuilds in the repository root
+analysis_table_*.csv
+*.pkl
+# credentials and scratch
+.env
+*.log
+tmp/

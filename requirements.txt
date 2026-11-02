@@ -1,0 +1,9 @@
+# Direct dependencies, pinned to the versions used for the reported results (Python 3.13).
+# The full tested environment, including transitive packages, is in requirements-lock.txt.
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+openpyxl==3.1.5
+matplotlib==3.11.2
+python-docx==1.2.0
+pytest>=8

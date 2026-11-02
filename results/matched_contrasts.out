@@ -1,0 +1,11 @@
+   pooled_p  ref_height_log10N                            contrast  estimate  ci_low  ci_high  method_pct  method_lo  method_hi  pooled_pct  pooled_lo  pooled_hi  boot_defined
+0      0.01               3.72  single minus pooled (breach %, pp)      7.62    5.14    10.31        9.75       6.94      12.85        2.13       0.72       4.10          2000
+1      0.01               3.72    hier minus pooled (breach %, pp)      0.30   -0.77     1.63        2.43       0.78       4.61        2.13       0.72       4.10          2000
+2      0.02               3.98  single minus pooled (breach %, pp)      8.55    5.98    11.32       12.31       9.20      15.69        3.76       1.76       6.31          2000
+3      0.02               3.98    hier minus pooled (breach %, pp)      0.28   -1.02     1.79        4.04       1.84       7.11        3.76       1.76       6.31          2000
+4      0.05               4.20  single minus pooled (breach %, pp)      9.07    6.45    11.77       15.57      12.25      19.18        6.50       3.81       9.91          2000
+5      0.05               4.20    hier minus pooled (breach %, pp)      0.43   -0.73     1.60        6.92       4.13      10.40        6.50       3.81       9.91          2000
+6      0.10               4.46  single minus pooled (breach %, pp)      9.63    6.50    12.42       21.41      17.69      25.19       11.78       7.91      16.24          2000
+7      0.10               4.46    hier minus pooled (breach %, pp)      1.29   -0.14     2.69       13.07       9.55      17.12       11.78       7.91      16.24          2000
+8      0.20               4.78  single minus pooled (breach %, pp)      6.26    2.99     9.32       30.65      26.51      34.96       24.39      19.30      29.93          2000
+9      0.20               4.78    hier minus pooled (breach %, pp)      0.01   -1.68     1.58       24.40      19.18      29.90       24.39      19.30      29.93          2000

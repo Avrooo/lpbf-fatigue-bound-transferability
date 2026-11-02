@@ -1,0 +1,6 @@
+set=primary: papers=123 curves=424 specimens=3924 failures=3464 runouts=460
+curves: 213 vs script 213
+5% prediction: within 4.24 (script 4.12); cross 26.87 (script 26.87); target-weighted cross 27.78 (script 27.78); gap 22.63 [18.24, 27.41] (script 22.75 [18.15, 27.72])
+95/95 tolerance: within 0.64 (script 0.66); cross 19.21 (script 19.21); target-weighted cross 19.83 (script 19.83); gap 18.57 [14.64, 22.62] (script 18.56 [14.55, 22.94])
+perturbation test (held-out lives replaced by +/-50 log10 cycles, 400 splits): bound unchanged = True
+AUDIT PASSED

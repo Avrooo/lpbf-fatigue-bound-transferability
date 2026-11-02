@@ -1,0 +1,4 @@
+model,breach_pct,CI_low,CI_high,mean_lower_bound_log10N,bound_CI_low,bound_CI_high,pairs,source_papers,target_papers,sigma_within_mean_over_fits,tau_between_mean_over_fits,sigma_pooled_mean_over_fits,converged_pct
+pooled_censored,6.4978,3.7932,9.6319,4.2036,4.1208,4.2899,1562.0000,99.0000,123.0000,,,0.7113,100.0000
+hierarchical_censored,4.5745,2.2285,7.5739,4.0592,3.9689,4.1521,1562.0000,99.0000,123.0000,0.6010,0.4853,,100.0000
+paired difference (hierarchical minus pooled),-1.9233,-3.2686,-0.7352,-0.1444,-0.1775,-0.1120,,,,,,,100.0000

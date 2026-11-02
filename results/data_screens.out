@@ -1,0 +1,7 @@
+set=all: papers=147 curves=492 specimens=4609 failures=4083 runouts=526
+S-N rows 15146 curves 1610 | parameter rows 2460
+{'color and shape': 2119, 'color': 341}
+non-positive S or N: 0 | missing: 0 | duplicate points within a curve: 38
+R unparsable (e.g. "0.2, 0.6"): 57 of 2460 | R>=1 or R<-5: 4
+UTS recorded for 53% of rows | S>UTS: rows 23 curves 12 | S>YS: curves 69
+curves with >=6 failures: 1080 | slope > -1 (life not falling with stress): 24 | median slope -5.51

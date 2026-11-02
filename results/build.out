@@ -1,0 +1,4 @@
+set=primary: papers=123 curves=424 specimens=3924 failures=3464 runouts=460
+wrote analysis_table_primary.csv 3924
+set=all: papers=147 curves=492 specimens=4609 failures=4083 runouts=526
+wrote analysis_table_all.csv 4609

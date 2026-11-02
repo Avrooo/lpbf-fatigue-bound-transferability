@@ -1,0 +1,5 @@
+metric,headline_target_then_source,source_paper_weighted,target_paper_weighted,pair_weighted,specimen_weighted
+single_5%,27.212,26.678,27.212,26.422,19.006
+single_95/95,19.031,18.743,19.031,18.443,12.696
+pooled_5%,6.498,5.790,6.498,5.122,4.180
+hier_5%,4.574,3.839,4.574,3.410,2.700

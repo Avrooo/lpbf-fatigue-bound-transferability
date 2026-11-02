@@ -1,0 +1,4 @@
+metric,specimen_weighted_confirmed,specimen_weighted_if_ambiguous_runouts_counted,ambiguous_runouts,scored_specimens
+single_5%,19.006,19.025,11,57483
+pooled_5%,4.180,4.180,0,57483
+hier_5%,2.700,2.700,0,57483

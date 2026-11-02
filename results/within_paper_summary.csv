@@ -1,0 +1,3 @@
+subset,n_splits,holdout_fraction,bound,n_papers,n_curves,n_test_failures_per_split,n_test_failures_unique,within_breach_pct,within_CI_low,within_CI_high,cross_breach_pct,cross_CI_low,cross_CI_high,gap_pp,gap_CI_low,gap_CI_high,within_breach_pct_failures_only_denominator,cross_breach_pct_target_weighting,cross_target_weighting_CI_low,cross_target_weighting_CI_high
+all alloys,100,0.300,5% prediction,89,213,562.500,1968,4.122,3.397,4.950,26.869,22.145,31.892,22.747,18.152,27.721,4.505,27.780,21.467,34.528
+all alloys,100,0.300,95/95 tolerance,89,213,562.500,1968,0.657,0.446,0.917,19.215,15.261,23.615,18.557,14.550,22.941,0.751,19.831,14.639,25.670

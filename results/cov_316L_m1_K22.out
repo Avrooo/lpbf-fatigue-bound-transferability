@@ -1,0 +1,8 @@
+set=primary: papers=123 curves=424 specimens=3924 failures=3464 runouts=460
+group 316L|-1 papers 22 DGP {'mu0': 5.117, 'gam': -2.116, 'bbar': -4.986, 'tslope': 1.29, 'tp': 0.231, 'tc': 0.179, 'sigma': 0.273} K 22
+  [single_pred5] sd of the point estimate over 1500 independent replications = 3.28 pts; implied 95% interval width = 12.87 pts
+  [single_pred5] VARIANT same-paper-set resampling: coverage= 93.2%  mean width=13.43 pts
+single_pred5                 truth(K=22)=19.14%  K=300 limit=19.31%  mean estimate=18.98%  coverage= 99.2% (MC s.e. 0.4)  miss-low= 0.8% miss-high= 0.0%  mean width=20.96 pts  sd(estimate)= 3.20 pts
+  [pooled_failures_only_pred5] sd of the point estimate over 1500 independent replications = 2.42 pts; implied 95% interval width = 9.47 pts
+  [pooled_failures_only_pred5] VARIANT same-paper-set resampling: coverage= 93.8%  mean width=11.11 pts
+pooled_failures_only_pred5   truth(K=22)= 7.04%  K=300 limit= 6.32%  mean estimate= 7.07%  coverage= 94.8% (MC s.e. 1.0)  miss-low= 5.0% miss-high= 0.2%  mean width=11.81 pts  sd(estimate)= 2.42 pts

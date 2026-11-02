@@ -1,0 +1,10 @@
+quantity,estimate,ci_low,ci_high,n_boot_defined
+height_at_5pct_breach_single,2.8560,2.3833,3.4047,1995
+height_at_5pct_breach_pooled,4.0806,3.8691,4.2704,2000
+height_at_5pct_breach_hier,4.0854,3.7946,4.2551,2000
+height_gain_at_5pct_pooled_minus_single,1.2246,0.7558,1.6751,1995
+height_gain_at_5pct_pooled_minus_hier,-0.0048,-0.0922,0.1782,2000
+breach_at_pooled5_height_single,15.5674,12.3823,18.9286,2000
+breach_at_pooled5_height_pooled,6.4978,3.7932,9.6319,2000
+breach_at_pooled5_height_hier,6.9231,4.2472,10.0510,2000
+mean pooled Basquin slope d(log10 N)/d(log10 S),-2.7924,,,4049

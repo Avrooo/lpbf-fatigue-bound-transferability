@@ -1,0 +1,16 @@
+                                        rule  breach_pct  breach_lo  breach_hi  mean_bound_log10N  bound_lo  bound_hi  share_single_accepted_pct  breach_among_accepted_pct  accepted_lo  accepted_hi
+0    accept single if <= pooled + -0.5 log10       5.813      3.369      8.816              4.141     4.061     4.224                      7.484                      0.533        0.000        1.939
+1   accept single if <= pooled + -0.25 log10       5.685      3.284      8.644              4.124     4.043     4.209                     12.049                      0.927        0.095        2.884
+2    accept single if <= pooled + -0.1 log10       5.618      3.237      8.521              4.116     4.036     4.203                     16.351                      2.329        0.606        4.915
+3     accept single if <= pooled + 0.0 log10       5.579      3.222      8.458              4.114     4.034     4.200                     20.492                      2.206        0.749        4.290
+4     accept single if <= pooled + 0.1 log10       5.588      3.242      8.488              4.116     4.036     4.202                     25.203                      3.381        1.399        6.321
+5    accept single if <= pooled + 0.25 log10       5.867      3.406      8.869              4.131     4.051     4.219                     33.611                      4.855        2.404        8.632
+6     accept single if <= pooled + 0.5 log10       8.093      5.185     11.487              4.210     4.120     4.305                     54.667                     10.077        6.247       14.711
+7     accept single if <= pooled + 1.0 log10      15.021     11.311     19.283              4.398     4.306     4.491                     80.707                     17.591       13.197       22.735
+8     accept single if <= pooled + 5.0 log10      27.212     21.727     33.470              4.677     4.576     4.782                    100.000                     27.212       21.727       33.470
+9                                pooled only       6.498      3.811      9.914              4.204     4.118     4.290                        NaN                        NaN          NaN          NaN
+10                         single-study only      27.212     21.727     33.470              4.677     4.576     4.782                        NaN                        NaN          NaN          NaN
+                                                                       quantity  estimate  ci_low  ci_high
+0         breach % of policy tau-frontier at the pooled-5% bound height (4.204)     7.883   5.020   11.405
+1                                     breach % of pooled-only at its own height     6.498   3.811    9.914
+2  breach % of single-study fixed-margin (p-grid) at the pooled-5% bound height    15.567     NaN      NaN

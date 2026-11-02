@@ -1,0 +1,3 @@
+# Test dependencies (kept apart from the analysis environment pinned in requirements-lock.txt)
+pytest>=8
+# pytest was not installable in the environment used for the verification run; tests/run_tests.py runs the same tests without it.

@@ -1,0 +1,84 @@
+set=primary: papers=123 curves=424 specimens=3924 failures=3464 runouts=460
+Ti-6Al-4V done 33 s
+AlSi10Mg done 39 s
+IN718 done 46 s
+316L done 65 s
+pair-curve records: 4049 | covariate columns dropped by the training-only rule: 1
+pairs=1562 sources=99 targets=123
+          method      p  breach_pct  breach_lo  breach_hi  mean_bound_log10N  bound_lo  bound_hi
+0         single  0.000       2.637      1.367      4.161              2.092     1.679     2.479
+1         single  0.000       5.875      3.609      8.519              3.139     2.883     3.381
+2         single  0.000       8.180      5.217     11.573              3.511     3.307     3.709
+3         single  0.001      10.784      7.228     14.674              3.852     3.682     4.014
+4         single  0.002      13.473      9.590     17.754              4.075     3.929     4.217
+5         single  0.005      15.969     11.798     20.596              4.228     4.094     4.359
+6         single  0.010      19.027     14.400     24.073              4.371     4.247     4.490
+7         single  0.025      23.573     18.465     29.206              4.547     4.435     4.660
+8         single  0.050      27.212     21.774     33.158              4.677     4.572     4.784
+9         single  0.100      31.692     26.070     37.640              4.808     4.707     4.911
+10        single  0.200      37.091     31.232     43.166              4.949     4.852     5.047
+11        single  0.300      40.991     35.180     47.112              5.043     4.947     5.138
+12        single  0.500      47.213     41.235     53.449              5.192     5.093     5.290
+13        pooled  0.000       0.051      0.000      0.184              2.332     2.202     2.470
+14        pooled  0.000       0.093      0.000      0.347              2.722     2.603     2.848
+15        pooled  0.000       0.140      0.000      0.520              2.927     2.814     3.046
+16        pooled  0.001       0.222      0.007      0.640              3.171     3.065     3.285
+17        pooled  0.002       0.643      0.116      1.455              3.373     3.271     3.482
+18        pooled  0.005       1.288      0.396      2.541              3.538     3.441     3.642
+19        pooled  0.010       2.132      0.771      3.948              3.717     3.623     3.816
+20        pooled  0.025       3.756      1.833      6.075              3.978     3.891     4.070
+21        pooled  0.050       6.498      3.793      9.632              4.204     4.121     4.290
+22        pooled  0.100      11.780      7.934     16.127              4.463     4.385     4.543
+23        pooled  0.200      24.391     19.634     29.663              4.777     4.703     4.853
+24        pooled  0.300      36.128     30.315     41.948              5.004     4.933     5.078
+25        pooled  0.500      56.248     50.720     61.715              5.379     5.310     5.451
+26          hier  0.000       0.051      0.000      0.184              2.012     1.877     2.157
+27          hier  0.000       0.098      0.000      0.361              2.439     2.315     2.572
+28          hier  0.000       0.140      0.000      0.520              2.663     2.544     2.791
+29          hier  0.001       0.140      0.000      0.520              2.930     2.815     3.050
+30          hier  0.002       0.471      0.000      1.282              3.151     3.041     3.266
+31          hier  0.005       0.785      0.078      1.938              3.332     3.225     3.441
+32          hier  0.010       1.405      0.344      2.983              3.527     3.424     3.632
+33          hier  0.025       2.949      1.052      5.538              3.813     3.716     3.911
+34          hier  0.050       4.574      2.228      7.574              4.059     3.969     4.152
+35          hier  0.100       9.192      5.885     12.833              4.343     4.257     4.432
+36          hier  0.200      20.293     15.422     25.776              4.687     4.602     4.772
+37          hier  0.300      31.514     25.827     37.592              4.935     4.854     5.018
+38          hier  0.500      54.288     48.613     59.877              5.344     5.266     5.425
+39  single_95/95    NaN      19.031     14.375     24.090              4.373     4.249     4.494
+                                          quantity  estimate  ci_low  ci_high  n_boot_defined
+0                     height_at_5pct_breach_single     2.856   2.383    3.405            1995
+1                     height_at_5pct_breach_pooled     4.081   3.869    4.270            2000
+2                       height_at_5pct_breach_hier     4.085   3.795    4.255            2000
+3          height_gain_at_5pct_pooled_minus_single     1.225   0.756    1.675            1995
+4            height_gain_at_5pct_pooled_minus_hier    -0.005  -0.092    0.178            2000
+5                  breach_at_pooled5_height_single    15.567  12.382   18.929            2000
+6                  breach_at_pooled5_height_pooled     6.498   3.793    9.632            2000
+7                    breach_at_pooled5_height_hier     6.923   4.247   10.051            2000
+8  mean pooled Basquin slope d(log10 N)/d(log10 S)    -2.792     NaN      NaN            4049
+         metric  headline_target_then_source  source_paper_weighted  target_paper_weighted  pair_weighted  specimen_weighted
+0     single_5%                        27.21                  26.68                  27.21          26.42              19.01
+1  single_95/95                        19.03                  18.74                  19.03          18.44              12.70
+2     pooled_5%                         6.50                   5.79                   6.50           5.12               4.18
+3       hier_5%                         4.57                   3.84                   4.57           3.41               2.70
+      metric  specimen_weighted_confirmed  specimen_weighted_if_ambiguous_runouts_counted  ambiguous_runouts  scored_specimens
+0  single_5%                       19.006                                          19.025                 11             57483
+1  pooled_5%                        4.180                                           4.180                  0             57483
+2    hier_5%                        2.700                                           2.700                  0             57483
+         bootstrap        metric  ci_low  ci_high  width
+0      independent     single_5%   21.57    32.91  11.34
+1      independent  single_95/95   14.28    24.04   9.76
+2      independent     pooled_5%    3.76     9.72   5.96
+3      independent       hier_5%    2.06     7.75   5.69
+4   same_paper_set     single_5%   23.75    30.86   7.11
+5   same_paper_set  single_95/95   15.62    22.72   7.09
+6   same_paper_set     pooled_5%    3.75     9.67   5.92
+7   same_paper_set       hier_5%    2.22     7.65   5.43
+8      source_only     single_5%   23.23    31.46   8.23
+9      source_only  single_95/95   15.64    22.85   7.22
+10     source_only     pooled_5%    5.96     7.02   1.06
+11     source_only       hier_5%    4.14     4.93   0.80
+12     target_only     single_5%   23.58    30.89   7.30
+13     target_only  single_95/95   15.94    22.25   6.31
+14     target_only     pooled_5%    3.71     9.64   5.92
+15     target_only       hier_5%    2.14     7.61   5.47

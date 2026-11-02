@@ -1,0 +1,8 @@
+set=primary: papers=123 curves=424 specimens=3924 failures=3464 runouts=460
+group Ti-6Al-4V|-1 papers 19 DGP {'mu0': 4.9, 'gam': 0.087, 'bbar': -3.988, 'tslope': 0.849, 'tp': 0.227, 'tc': 0.092, 'sigma': 0.251} K 60
+  [single_pred5] sd of the point estimate over 1500 independent replications = 1.66 pts; implied 95% interval width = 6.51 pts
+  [single_pred5] VARIANT same-paper-set resampling: coverage= 93.7%  mean width= 6.60 pts
+single_pred5                 truth(K=60)=28.71%  K=300 limit=28.82%  mean estimate=28.84%  coverage=100.0% (MC s.e. 0.0)  miss-low= 0.0% miss-high= 0.0%  mean width=14.48 pts  sd(estimate)= 1.64 pts
+  [pooled_failures_only_pred5] sd of the point estimate over 1500 independent replications = 1.17 pts; implied 95% interval width = 4.58 pts
+  [pooled_failures_only_pred5] VARIANT same-paper-set resampling: coverage= 99.3%  mean width= 6.83 pts
+pooled_failures_only_pred5   truth(K=60)= 8.20%  K=300 limit= 8.00%  mean estimate= 8.15%  coverage= 99.7% (MC s.e. 0.3)  miss-low= 0.3% miss-high= 0.0%  mean width= 7.78 pts  sd(estimate)= 1.21 pts
